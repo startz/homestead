@@ -9,12 +9,12 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/startz/code
+    - map: ~/startz/code/deltapitch
       to: /home/vagrant/Code
 
 sites:
-    - map: core.app
-      to: /home/vagrant/Code/Laravel/public
+    - map: delta.app
+      to: /home/vagrant/Code/public
 
 variables:
     - key: APP_ENV
