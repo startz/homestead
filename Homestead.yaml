@@ -9,11 +9,11 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/Code
+    - map: ~/startz/code
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.app
+    - map: core.app
       to: /home/vagrant/Code/Laravel/public
 
 variables:
